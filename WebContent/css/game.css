@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/hello.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar .menu a {
+    margin-left: 10px;
+}
+
+.navbar .username .hp{
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin-top: 70px; /* Adjusted for the navbar height */
+}
+
+h1, h2 {
+    color: #fff;
+}
+.top-cards, .bottom-cards, .draw-button, .draw-cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.top-cards img, .bottom-cards img, .draw-button img, .draw-cards img{
+    width: 50px;
+    height: 80px;
+    margin: 0 5px;
+}
+
+
+
